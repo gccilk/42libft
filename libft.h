@@ -6,7 +6,7 @@
 /*   By: ilkaptan <ilkaptan@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/07 17:52:59 by ilkaptan          #+#    #+#             */
-/*   Updated: 2026/08/08 19:01:03 by ilkaptan         ###   ########.fr       */
+/*   Updated: 2026/08/09 19:04:52 by ilkaptan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,6 @@ void	*ft_memset(void *s, int c, size_t n);
 void	ft_bzero(void *s, size_t n);
 void	*ft_memcpy(void *dst, const void *src, size_t n);
 void	*ft_memmove(void *dst, const void *src, size_t len);
+size_t	ft_strlcpy(char *dest, const char *src, size_t dstsize);
 
 #endif
